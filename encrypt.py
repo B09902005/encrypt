@@ -1,5 +1,5 @@
 def make_table(file):
-    myfile = open(file)
+    myfile = open(file, encoding = 'utf-8')
     transform_table = {}
     while (True):
         line = myfile.readline().split(',')
